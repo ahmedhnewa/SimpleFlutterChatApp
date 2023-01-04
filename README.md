@@ -11,7 +11,9 @@ and reduce image size for user profile, and also make sure to validate the field
 in the firestore database, so users can't add any other fields, can't use invalid user uid when send message
 for example and so on
 
-<img width=35% src="https://user-images.githubusercontent.com/73608287/210568425-46e0fba6-5074-4182-8365-b6aa43a807a1.png">
-<img width=35% src="https://user-images.githubusercontent.com/73608287/210568423-89c24f72-bf88-4dd4-b29f-d5d2a0b19a20.png">
-<img width=35% src="https://user-images.githubusercontent.com/73608287/210568415-e2ba5d40-bd19-4770-9674-fff72e0426b2.png">
-<img width=35% src="https://user-images.githubusercontent.com/73608287/210568401-2d8489b8-94b8-4029-9e19-a7b9f21da149.png">
+<p float="left">
+  <img width=35% src="https://user-images.githubusercontent.com/73608287/210568425-46e0fba6-5074-4182-8365-b6aa43a807a1.png">
+  <img width=35% src="https://user-images.githubusercontent.com/73608287/210568423-89c24f72-bf88-4dd4-b29f-d5d2a0b19a20.png">
+  <img width=35% src="https://user-images.githubusercontent.com/73608287/210568415-e2ba5d40-bd19-4770-9674-fff72e0426b2.png">
+  <img width=35% src="https://user-images.githubusercontent.com/73608287/210568401-2d8489b8-94b8-4029-9e19-a7b9f21da149.png">
+</p>
