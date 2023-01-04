@@ -1,16 +1,17 @@
-# chat_app
+# Chat App
 
-A new Flutter project.
+A simple chat app and firebase as backend using it's flutter SDK
+If you want try out this project, you have to setup firebase project
+As I have exclude the credentails files from the project using .gitignore
 
-## Getting Started
+The app is not for use as it's have some bugs and does't have the push notification
+for ios, and I don't have cloud functions so I can't implement it anyway, also
+if you plan to publish it for real users, you have to setup rules for firestore and storage
+and reduce image size for user profile, and also make sure to validate the fields that will be
+in the firestore database, so users can't add any other fields, can't use invalid user uid when send message
+for example and so on
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img width=35% src="https://user-images.githubusercontent.com/73608287/210568425-46e0fba6-5074-4182-8365-b6aa43a807a1.png">
+<img width=35% src="https://user-images.githubusercontent.com/73608287/210568423-89c24f72-bf88-4dd4-b29f-d5d2a0b19a20.png">
+<img width=35% src="https://user-images.githubusercontent.com/73608287/210568415-e2ba5d40-bd19-4770-9674-fff72e0426b2.png">
+<img width=35% src="https://user-images.githubusercontent.com/73608287/210568401-2d8489b8-94b8-4029-9e19-a7b9f21da149.png">
