@@ -4,7 +4,7 @@ A simple chat app and firebase as the backend using it's flutter SDK
 If you want to try out this project, you have to set up firebase project
 As I have excluded the credentials files from the project using .gitignore
 
-The app is not suitable for use as it has some bugs and does not have push notifications.
+Please notice the app is not suitable for use as it has some bugs and does not have push notifications.
 for ios, and I don't have cloud functions so I can't implement it anyway, also
 if you plan to publish it for real users, you have to setup rules for firestore and storage
 and reduce image size for user profile, and also make sure to validate the fields that will be
