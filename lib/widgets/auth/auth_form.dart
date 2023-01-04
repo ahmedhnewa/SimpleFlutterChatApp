@@ -99,6 +99,7 @@ class _AuthFormState extends State<AuthForm> {
                           style: Theme.of(context).textTheme.bodyText1,
                         ),
                       ),
+                const SizedBox(height: 5),
                 if (!widget.isLoading)
                   TextButton(
                     onPressed: () => setState(() {
