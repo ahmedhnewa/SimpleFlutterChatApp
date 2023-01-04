@@ -37,11 +37,12 @@ void main() async {
     print('Got a message whilst in the foreground!');
     print('Message data: ${message.data}');
 
-    if (message.notification != null) {
-      final notification = message.notification!;
-      final title = notification.title;
-      final body = notification.body;
+    if (message.notification == null) {
+      return;
     }
+    final notification = message.notification!;
+    final title = notification.title;
+    final body = notification.body;
   });
   runApp(const MyApp());
 }
